@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even or Odd Checker</title>
+</head>
+<body>
+
+    <h1>Even or Odd Number Checker</h1>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+// Store a number in a variable
+let number = 25;
+
+// Check whether the number is even or odd
+if (number % 2 === 0) {
+    document.getElementById("result").innerHTML =
+        number + " is an Even Number";
+} else {
+    document.getElementById("result").innerHTML =
+        number + " is an Odd Number";
+}
